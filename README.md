@@ -1,27 +1,24 @@
-# apirest-python
-aula tec avancadas fatec taquaritinga
+apirest-python
+Aulas Tecnicas Avancadas Fatec Taquairitinga
 
-##turma Ams fatec taqua
+Tecnicas Avançada de Programação
+Carlos
 
+Turma : Ams Fatec Taquaritinga 2025
+como baixar o projeto
+copie o link do repositorio, link aqui: https://github.com/carloscastrofilho/apirest-python.git
 
-##como baixar o projeto
-##copie o link do rep, link aqui 
-https://github.com/GustavoNori/apirest-python.git
+acesse a pasta de destino do projeto e execute um git clone:
 
-acesse a pasta de destino e execute um git clone
+git clone https://github.com/carloscastrofilho/apirest-python.git
 
-`git clone https://github.com/GustavoNori/apirest-python.git`
+criar o ambiente virtual
+vamos utilizar a bliblioteca venv, para criar o ambiente utilize o comando abaixo: python -m venv myvenv
 
-##criar o ambiente virtual
-vamos utilizar a biblioteca `venv`, para criar o ambiente utilize o comando abaixo:
-`python -m venv myvenv` ou py no lugar de python
-
-pip list
-
-source tab que ele acha. myenv/scripts/activate
-
-pip list
+ativar o ambiente virtual: source ./myvenv/Scripts/activate
 
 pip install flask
 
 pip freeze
+
+pip freeze > requirements.txt
